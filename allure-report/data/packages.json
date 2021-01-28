@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_shop",
+    "children" : [ {
+      "name" : "Order T-Shirt",
+      "uid" : "f7e50fee50ff6dfd",
+      "parentUid" : "f1d55766a53a2fff4f8df374e5b0149c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608805818087,
+        "stop" : 1608805872248,
+        "duration" : 54161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Negative to check attachments",
+      "uid" : "6d281ce68e1377c8",
+      "parentUid" : "f1d55766a53a2fff4f8df374e5b0149c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1608805818342,
+        "stop" : 1608805832480,
+        "duration" : 14138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_shop"
+  } ]
+}

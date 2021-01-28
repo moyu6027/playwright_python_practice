@@ -1,0 +1,8 @@
+[FORMAT]
+max-line-length=120
+
+# Docstrings
+disable=C0114,C0115,C0116,W0603
+
+[MASTER]
+init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"

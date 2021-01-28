@@ -1,0 +1,12 @@
+class ShopLocators:
+    T_SHIRT_CATEGORY_BTN = 'li:nth-child(3) > a[title="T-shirts"]'
+    ITEM_NAME_LBL = '[itemprop="name"]'
+    ADD_TO_CART_BTN = '#add_to_cart'
+    PROCEED_TO_CHECKOUT_BTN = '[title="Proceed to checkout"]'
+    SECOND_CART_STEP_BTN = 'p > a.button.btn.btn-default.standard-checkout.button-medium'
+    TERMS_CHECKBOX = '[name="cgv"]'
+    PAY_WITH_BANK_BTN = '[title="Pay by bank wire"]'
+    CONFIRM_ORDER_BTN = '#cart_navigation > button'
+    PROFILE_BTN = '[title="View my customer account"]'
+    ORDERS_BTN = '[title="Orders"]'
+    ORDER_ROW = '#order-list > tbody > tr'

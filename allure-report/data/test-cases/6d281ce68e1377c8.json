@@ -1,0 +1,172 @@
+{
+  "uid" : "6d281ce68e1377c8",
+  "name" : "Negative to check attachments",
+  "fullName" : "tests.test_shop.TestShop#test_negative",
+  "historyId" : "68346a3e0308815a0ec7c1c637865e5c",
+  "time" : {
+    "start" : 1608805818342,
+    "stop" : 1608805832480,
+    "duration" : 14138
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "page = <playwright.sync_api.Page object at 0x7fb417465be0>\n\n    @staticmethod\n    @allure.title('Negative to check attachments')\n    @pytest.mark.skipif(os.getenv('GITHUB_RUN') is not None, reason='GitHub actions')\n    def test_negative(page):\n        shop_page = ShopPage(page)\n        with step('Open site'):\n            shop_page.open_site()\n        with step('Fail test'):\n>           assert False\nE           assert False\n\ntests/test_shop.py:43: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1608805815905,
+      "stop" : 1608805818338,
+      "duration" : 2433
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "page = <playwright.sync_api.Page object at 0x7fb417465be0>\n\n    @staticmethod\n    @allure.title('Negative to check attachments')\n    @pytest.mark.skipif(os.getenv('GITHUB_RUN') is not None, reason='GitHub actions')\n    def test_negative(page):\n        shop_page = ShopPage(page)\n        with step('Open site'):\n            shop_page.open_site()\n        with step('Fail test'):\n>           assert False\nE           assert False\n\ntests/test_shop.py:43: AssertionError",
+    "steps" : [ {
+      "name" : "Open site",
+      "time" : {
+        "start" : 1608805818343,
+        "stop" : 1608805832471,
+        "duration" : 14128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to url - 'http://automationpractice.com/index.php'",
+        "time" : {
+          "start" : 1608805818343,
+          "stop" : 1608805832470,
+          "duration" : 14127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://automationpractice.com/index.php'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fail test",
+      "time" : {
+        "start" : 1608805832472,
+        "stop" : 1608805832475,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"/Users/sean.yu/Downloads/playwright_python_practice-master/tests/test_shop.py\", line 43, in test_negative\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ae974ad1927520a",
+      "name" : "screenshot",
+      "source" : "ae974ad1927520a.png",
+      "type" : "image/png",
+      "size" : 901593
+    }, {
+      "uid" : "5177cc42b4a28c75",
+      "name" : "html_source",
+      "source" : "5177cc42b4a28c75.html",
+      "type" : "text/html",
+      "size" : 90852
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page::0",
+    "time" : {
+      "start" : 1608805833124,
+      "stop" : 1608805833445,
+      "duration" : 321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Shop"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='GitHub actions')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_shop"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShop"
+  }, {
+    "name" : "host",
+    "value" : "CN-ML4007.local"
+  }, {
+    "name" : "thread",
+    "value" : "66799-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='GitHub actions')" ]
+  },
+  "source" : "6d281ce68e1377c8.json",
+  "parameterValues" : [ ]
+}

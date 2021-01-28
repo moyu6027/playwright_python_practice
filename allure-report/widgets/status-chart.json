@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6d281ce68e1377c8",
+  "name" : "Negative to check attachments",
+  "time" : {
+    "start" : 1608805818342,
+    "stop" : 1608805832480,
+    "duration" : 14138
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7e50fee50ff6dfd",
+  "name" : "Order T-Shirt",
+  "time" : {
+    "start" : 1608805818087,
+    "stop" : 1608805872248,
+    "duration" : 54161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

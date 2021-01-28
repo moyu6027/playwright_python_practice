@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CN-ML4007.local",
+    "children" : [ {
+      "name" : "66798-MainThread",
+      "children" : [ {
+        "name" : "Order T-Shirt",
+        "uid" : "f7e50fee50ff6dfd",
+        "parentUid" : "fcf58c412289b224d3122ceacf2c8197",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608805818087,
+          "stop" : 1608805872248,
+          "duration" : 54161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcf58c412289b224d3122ceacf2c8197"
+    }, {
+      "name" : "66799-MainThread",
+      "children" : [ {
+        "name" : "Negative to check attachments",
+        "uid" : "6d281ce68e1377c8",
+        "parentUid" : "7b446e92f52f0a1bf050a59b94ee0a16",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608805818342,
+          "stop" : 1608805832480,
+          "duration" : 14138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b446e92f52f0a1bf050a59b94ee0a16"
+    } ],
+    "uid" : "90491512c04bcd9d3e7119ca423f619d"
+  } ]
+}

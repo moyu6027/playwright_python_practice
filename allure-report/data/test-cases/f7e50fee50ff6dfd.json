@@ -1,0 +1,1110 @@
+{
+  "uid" : "f7e50fee50ff6dfd",
+  "name" : "Order T-Shirt",
+  "fullName" : "tests.test_shop.TestShop#test_order_t_shirt",
+  "historyId" : "1610c102be5d301d4ded2c2c4f5c2689",
+  "time" : {
+    "start" : 1608805818087,
+    "stop" : 1608805872248,
+    "duration" : 54161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1608805815905,
+      "stop" : 1608805818084,
+      "duration" : 2179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open site",
+      "time" : {
+        "start" : 1608805818088,
+        "stop" : 1608805832269,
+        "duration" : 14181
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to url - 'http://automationpractice.com/index.php'",
+        "time" : {
+          "start" : 1608805818088,
+          "stop" : 1608805832268,
+          "duration" : 14180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://automationpractice.com/index.php'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open T-Shirt category",
+      "time" : {
+        "start" : 1608805832269,
+        "stop" : 1608805834270,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click locator - 'li:nth-child(3) > a[title=\"T-shirts\"]'",
+        "time" : {
+          "start" : 1608805832269,
+          "stop" : 1608805834270,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'li:nth-child(3) > a[title=\"T-shirts\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Add item to cart and proceed",
+      "time" : {
+        "start" : 1608805834270,
+        "stop" : 1608805842578,
+        "duration" : 8308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Hover locator - '[itemprop=\"name\"]'",
+        "time" : {
+          "start" : 1608805834270,
+          "stop" : 1608805836151,
+          "duration" : 1881
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[itemprop=\"name\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[itemprop=\"name\"]'",
+        "time" : {
+          "start" : 1608805836151,
+          "stop" : 1608805838278,
+          "duration" : 2127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[itemprop=\"name\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#add_to_cart'",
+        "time" : {
+          "start" : 1608805838278,
+          "stop" : 1608805839832,
+          "duration" : 1554
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#add_to_cart'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[title=\"Proceed to checkout\"]'",
+        "time" : {
+          "start" : 1608805839833,
+          "stop" : 1608805842578,
+          "duration" : 2745
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[title=\"Proceed to checkout\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Go to the second cart step",
+      "time" : {
+        "start" : 1608805842578,
+        "stop" : 1608805846435,
+        "duration" : 3857
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click locator - 'p > a.button.btn.btn-default.standard-checkout.button-medium'",
+        "time" : {
+          "start" : 1608805842578,
+          "stop" : 1608805846435,
+          "duration" : 3857
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'p > a.button.btn.btn-default.standard-checkout.button-medium'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Register new account",
+      "time" : {
+        "start" : 1608805846435,
+        "stop" : 1608805857120,
+        "duration" : 10685
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Type text - 'goraved@1321.com' into locator - '#email_create'",
+        "time" : {
+          "start" : 1608805846435,
+          "stop" : 1608805847625,
+          "duration" : 1190
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '#email_create'",
+          "time" : {
+            "start" : 1608805846435,
+            "stop" : 1608805847607,
+            "duration" : 1172
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'#email_create'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#email_create'"
+        }, {
+          "name" : "text",
+          "value" : "'goraved@1321.com'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#SubmitCreate'",
+        "time" : {
+          "start" : 1608805847626,
+          "stop" : 1608805847690,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#SubmitCreate'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[name=\"id_gender\"]'",
+        "time" : {
+          "start" : 1608805847690,
+          "stop" : 1608805849698,
+          "duration" : 2008
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"id_gender\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'Test' into locator - '[name=\"customer_firstname\"]'",
+        "time" : {
+          "start" : 1608805849698,
+          "stop" : 1608805849784,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"customer_firstname\"]'",
+          "time" : {
+            "start" : 1608805849698,
+            "stop" : 1608805849770,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"customer_firstname\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"customer_firstname\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'Test'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'Goraved' into locator - '[name=\"customer_lastname\"]'",
+        "time" : {
+          "start" : 1608805849785,
+          "stop" : 1608805849847,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"customer_lastname\"]'",
+          "time" : {
+            "start" : 1608805849785,
+            "stop" : 1608805849836,
+            "duration" : 51
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"customer_lastname\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"customer_lastname\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'Goraved'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - '123asd' into locator - '[name=\"passwd\"]'",
+        "time" : {
+          "start" : 1608805849848,
+          "stop" : 1608805849921,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"passwd\"]'",
+          "time" : {
+            "start" : 1608805849848,
+            "stop" : 1608805849906,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"passwd\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"passwd\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'123asd'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select option - '1' in locator - '#days'",
+        "time" : {
+          "start" : 1608805849921,
+          "stop" : 1608805849939,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#days'"
+        }, {
+          "name" : "option",
+          "value" : "'1'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select option - '1' in locator - '#months'",
+        "time" : {
+          "start" : 1608805849939,
+          "stop" : 1608805849945,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#months'"
+        }, {
+          "name" : "option",
+          "value" : "'1'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select option - '2020' in locator - '#years'",
+        "time" : {
+          "start" : 1608805849945,
+          "stop" : 1608805849953,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#years'"
+        }, {
+          "name" : "option",
+          "value" : "'2020'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[name=\"optin\"]'",
+        "time" : {
+          "start" : 1608805849953,
+          "stop" : 1608805849997,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"optin\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#newsletter'",
+        "time" : {
+          "start" : 1608805849997,
+          "stop" : 1608805850046,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#newsletter'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'Test' into locator - '[name=\"firstname\"]'",
+        "time" : {
+          "start" : 1608805850046,
+          "stop" : 1608805850109,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"firstname\"]'",
+          "time" : {
+            "start" : 1608805850046,
+            "stop" : 1608805850096,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"firstname\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"firstname\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'Test'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'Goraved' into locator - '[name=\"lastname\"]'",
+        "time" : {
+          "start" : 1608805850109,
+          "stop" : 1608805850161,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"lastname\"]'",
+          "time" : {
+            "start" : 1608805850109,
+            "stop" : 1608805850149,
+            "duration" : 40
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"lastname\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"lastname\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'Goraved'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'street' into locator - '[name=\"address1\"]'",
+        "time" : {
+          "start" : 1608805850161,
+          "stop" : 1608805850310,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '[name=\"address1\"]'",
+          "time" : {
+            "start" : 1608805850161,
+            "stop" : 1608805850288,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'[name=\"address1\"]'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"address1\"]'"
+        }, {
+          "name" : "text",
+          "value" : "'street'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - 'test' into locator - '#city'",
+        "time" : {
+          "start" : 1608805850310,
+          "stop" : 1608805850378,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '#city'",
+          "time" : {
+            "start" : 1608805850310,
+            "stop" : 1608805850368,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'#city'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#city'"
+        }, {
+          "name" : "text",
+          "value" : "'test'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select option - '1' in locator - '#id_state'",
+        "time" : {
+          "start" : 1608805850378,
+          "stop" : 1608805850385,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#id_state'"
+        }, {
+          "name" : "option",
+          "value" : "'1'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - '11111' into locator - '#postcode'",
+        "time" : {
+          "start" : 1608805850385,
+          "stop" : 1608805850459,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '#postcode'",
+          "time" : {
+            "start" : 1608805850385,
+            "stop" : 1608805850440,
+            "duration" : 55
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'#postcode'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#postcode'"
+        }, {
+          "name" : "text",
+          "value" : "'11111'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - '123' into locator - '#other'",
+        "time" : {
+          "start" : 1608805850460,
+          "stop" : 1608805850513,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '#other'",
+          "time" : {
+            "start" : 1608805850460,
+            "stop" : 1608805850502,
+            "duration" : 42
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'#other'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#other'"
+        }, {
+          "name" : "text",
+          "value" : "'123'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type text - '123' into locator - '#phone_mobile'",
+        "time" : {
+          "start" : 1608805850513,
+          "stop" : 1608805850575,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click locator - '#phone_mobile'",
+          "time" : {
+            "start" : 1608805850513,
+            "stop" : 1608805850564,
+            "duration" : 51
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "'#phone_mobile'"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#phone_mobile'"
+        }, {
+          "name" : "text",
+          "value" : "'123'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#alias'",
+        "time" : {
+          "start" : 1608805850575,
+          "stop" : 1608805850613,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#alias'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#submitAccount'",
+        "time" : {
+          "start" : 1608805850614,
+          "stop" : 1608805857120,
+          "duration" : 6506
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#submitAccount'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 32,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Finish order after registration",
+      "time" : {
+        "start" : 1608805857120,
+        "stop" : 1608805867972,
+        "duration" : 10852
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click locator - '#center_column > form > p > button'",
+        "time" : {
+          "start" : 1608805857120,
+          "stop" : 1608805859580,
+          "duration" : 2460
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#center_column > form > p > button'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[name=\"cgv\"]'",
+        "time" : {
+          "start" : 1608805859581,
+          "stop" : 1608805860270,
+          "duration" : 689
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[name=\"cgv\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#form > p > button'",
+        "time" : {
+          "start" : 1608805860270,
+          "stop" : 1608805861981,
+          "duration" : 1711
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#form > p > button'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[title=\"Pay by bank wire\"]'",
+        "time" : {
+          "start" : 1608805861982,
+          "stop" : 1608805863696,
+          "duration" : 1714
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[title=\"Pay by bank wire\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '#cart_navigation > button'",
+        "time" : {
+          "start" : 1608805863696,
+          "stop" : 1608805867972,
+          "duration" : 4276
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#cart_navigation > button'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open profile orders page",
+      "time" : {
+        "start" : 1608805867972,
+        "stop" : 1608805870921,
+        "duration" : 2949
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click locator - '[title=\"View my customer account\"]'",
+        "time" : {
+          "start" : 1608805867972,
+          "stop" : 1608805869098,
+          "duration" : 1126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[title=\"View my customer account\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click locator - '[title=\"Orders\"]'",
+        "time" : {
+          "start" : 1608805869098,
+          "stop" : 1608805870921,
+          "duration" : 1823
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'[title=\"Orders\"]'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check at least 1 order present",
+      "time" : {
+        "start" : 1608805870921,
+        "stop" : 1608805872248,
+        "duration" : 1327
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Is element - '#order-list > tbody > tr' present",
+        "time" : {
+          "start" : 1608805870921,
+          "stop" : 1608805872248,
+          "duration" : 1327
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'#order-list > tbody > tr'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 55,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "page::0",
+    "time" : {
+      "start" : 1608805872249,
+      "stop" : 1608805872548,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Shop"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_shop"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShop"
+  }, {
+    "name" : "host",
+    "value" : "CN-ML4007.local"
+  }, {
+    "name" : "thread",
+    "value" : "66798-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7e50fee50ff6dfd.json",
+  "parameterValues" : [ ]
+}

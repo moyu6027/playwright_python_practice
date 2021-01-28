@@ -1,0 +1,6 @@
+allure-pytest
+playwright
+pytest
+pytest-asyncio
+pylint-fail-under
+pytest-xdist
